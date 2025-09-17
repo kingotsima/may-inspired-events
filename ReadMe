@@ -1,11 +1,60 @@
-To make Admin in terminal
+# May Inspired Events 🎉
+
+A Laravel 10 project for event management, bookings, and role-based access (Admin, Vendor, User).
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps after cloning/downloading the project.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/kingotsima/may-inspired-events.git
+cd may-inspired-events
+
+### 2. Install Dependencies
+composer install
+npm install && npm run build
+
+### 3. Set up Environment
+cp .env.example .env
+# Then generate app key
+php artisan key:generate
+
+### 4. Run Migrations and Seed Database
+php artisan migrate --seed
+
+
+
+
+## 👤 Roles & Permissions Setup
+
+This project uses Spatie Laravel Permission.
+Run the following in your terminal to set up roles:
+
+### 1. Create Admin Role
 php artisan tinker
-1. Create the admin role
+# Inside Tinker:
 Spatie\Permission\Models\Role::create(['name' => 'Admin']);
-2. Assign role
 $user = App\Models\User::where('email', 'admin@gmail.com')->first();
 $user->assignRole('Admin');
 
-Create Vendor Role in terminal
+### 2. Create Vendor Role
+php artisan tinker
+# Inside Tinker:
 use Spatie\Permission\Models\Role;
 Role::create(['name' => 'Vendor', 'guard_name' => 'web']);
+
+
+
+### Useful Commands
+
+## Run local server:
+php artisan serve
+
+## Run queue workers (for jobs/notifications):
+php artisan queue:work
+
+## Clear caches:
+php artisan optimize:clear
