@@ -135,10 +135,31 @@
       </div>
       <div class="modal-body">
         <!-- Your full terms content stays here (copied from previous code) -->
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
+        <div class="modal-body">
+            <h6>1. Acceptance of Terms</h6>
+            <p>By accessing or using our platform, you agree to comply with these Terms & Conditions. If you do not agree, you may not use the platform.</p>
+
+            <h6>2. User Responsibilities</h6>
+            <p>You agree to provide accurate information when registering and using the platform. Misuse of the platform, fraudulent activities, or violation of any policies may lead to suspension or termination of your account.</p>
+
+            <h6>3. Event Bookings and Services</h6>
+            <p>All bookings and services are subject to availability. Users are expected to read event details carefully before making payments.</p>
+
+            <h6>4. Payments</h6>
+            <p>All payments are made directly to the <strong>Admin</strong> through the platform. The Admin will then remit the agreed amount to the Vendor or Event Organizer after deducting a <strong>10% commission</strong> as service charges. The Admin is not responsible for any disputes arising outside the platform.</p>
+
+            <h6>5. Refunds and Cancellations</h6>
+            <p>Refund requests must be made in line with the event organizer’s policy. The platform only facilitates payments and does not guarantee refunds unless expressly stated.</p>
+
+            <h6>6. Liability</h6>
+            <p>The Admin is not liable for damages, losses, or disputes arising between Vendors and Clients beyond the agreed remittance terms. Vendors are solely responsible for delivering their services as described.</p>
+
+            <h6>7. Modifications</h6>
+            <p>We reserve the right to update these Terms & Conditions at any time. Continued use of the platform indicates acceptance of the updated terms.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
     </div>
   </div>
 </div>
@@ -152,7 +173,23 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <!-- Your full privacy content stays here (copied from previous code) -->
+        <h6>1. Information We Collect</h6>
+        <p>We collect personal details such as name, email, phone number, and payment information when you use our services.</p>
+
+        <h6>2. Use of Information</h6>
+        <p>Your information is used to process bookings, communicate with you, improve our platform, and ensure smooth transactions.</p>
+
+        <h6>3. Sharing of Information</h6>
+        <p>We do not sell or rent your information. However, we may share necessary details with event organizers or vendors to complete your bookings.</p>
+
+        <h6>4. Data Protection</h6>
+        <p>We implement industry-standard security measures to protect your personal data. However, we cannot guarantee complete security due to risks associated with online transactions.</p>
+
+        <h6>5. Cookies</h6>
+        <p>Our website uses cookies to enhance user experience, track activity, and provide personalized services.</p>
+
+        <h6>6. Changes to Privacy Policy</h6>
+        <p>We may update this Privacy Policy from time to time. Users will be notified of significant changes via email or platform notifications.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
